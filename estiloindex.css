@@ -1,0 +1,33 @@
+.topicos{
+	float:center;
+	margin-top:180px;
+	margin-left:600px;
+	margin-right:300px;	
+	font-family:monospace;
+	font-size:22px;
+	color:#FFFFFF
+}
+p.texto{
+	text-align:justify;
+	text-indent:30px;
+	font-family:monospace;
+	font-size:15px;
+	color:#FFFFFF
+}
+p.texto2{
+	font-family:monospace;
+	font-size:15px;
+	color:#FFFFFF
+}
+img.propaganda1{
+float:center;
+	margin-top:10px;
+	margin-left:250px;
+	margin-right:50px;	
+}
+img.propaganda2{
+	float:center;
+	margin-top:10px;
+	margin-left:100px;
+	margin-right:50px;
+}
