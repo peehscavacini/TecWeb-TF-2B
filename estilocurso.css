@@ -14,20 +14,10 @@ p.texto{
 	font-size:15px;
 	color:#FFFFFF
 }
-p.texto2{
-	font-family:monospace;
-	font-size:15px;
-	color:#FFFFFF
-}
+
 img.principal{
 	float:center;
 	margin-top:10px;
 	margin-left:250px;
 	margin-right:50px;	
-}
-img.propaganda2{
-	float:center;
-	margin-top:10px;
-	margin-left:100px;
-	margin-right:50px;
 }
