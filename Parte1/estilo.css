@@ -1,0 +1,54 @@
+.body{
+	background-color:#000000;
+}
+
+
+h1.header{
+	text-align:center;
+	font-family:Fixedsys;
+	font-family:monospace;
+	font-size:25px;
+	color:#FFFFFF;
+	
+	
+}
+img.logo{
+	height:100px;
+	width:350px;
+	float:left;
+	
+}
+
+h3.menu{
+	float: left;	
+	margin-right:1110px;
+	margin-left:30px;
+	margin-top:80px;
+	font-weight:bold;
+	font-family:monospace;
+	font-size:18px;
+	color:#FFFFFF
+}
+
+.lista{
+	float:left;
+	margin-top:-10px;
+	margin-left:10px;
+	margin-right:1110px;
+	font-family:monospace;
+	font-size:15px;
+	color:#FFFFFF
+	
+}
+
+a:link{
+		color:#FFFFFF;
+}
+
+.footer{
+	text-align:center;
+	font-family:monospace;
+	font-size:15px;
+	color:#000000;
+	background-color:#43c5cc;
+}
