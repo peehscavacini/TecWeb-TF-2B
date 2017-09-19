@@ -1,12 +1,13 @@
-
+/*CONFIGURAÇÃO DO CORPO DA PAGINA*/
 .body{
 margin: 0;
 font-family: monospace;
 font-size: 20px;
+background-color:#000000;
 
 	
 }
-
+/*CONFIGURAÇÃO MENU*/
 #btn-menu{
 	display:none;
 }
@@ -47,6 +48,8 @@ font-size: 20px;
 	background-color:#ff5900;
 }
 
+/*CONFIGURAÇÃO MENU PARA FICAR RESPONSIVO E APARECER O BOTÃO*/
+
 @media(max-width:768px){
 	.imagem{
 		margin-left:100px;
@@ -78,21 +81,8 @@ font-size: 20px;
 	}
 
 	}
-
-
-/************************************************************************************************************/
-.body{
-	background-color:#000000;
-}
-
-
-h1, h2, h3, h4, h5, h6{
-	text-align:center;
-	font-family:Fixedsys;
-	font-family:monospace;
-	font-size:25px;
-	color:#FFFFFF;
-}
+	
+/*CONFIGURAÇÃO DO LOGO PARA FICAR RESPONSIVO*/
 
 @media (min-width: 768px) {
     .logo {
@@ -118,14 +108,19 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+/*CONFIGURAÇÃO DE TEXTOS*/
 
-.footer{
+
+h1, h3, h4, h5, h6{
 	text-align:center;
+	font-family:Fixedsys;
 	font-family:monospace;
-	font-size:15px;
-	color:#000000;
-	background-color:#43c5cc;
+	font-size:25px;
+	color:#FFFFFF;
 }
+
+/* CONFIGURAÇÃO DOS TITULOS DA PAGINA RESPONSIVO*/
+
 
 header.titulo {
     width: -moz-max-content;
@@ -135,12 +130,25 @@ header.titulo {
     margin-bottom: 2em;
 }
 
+/* CONFIGURAÇÃO DOS QUADROS DA PAGINA RESPONSIVO*/
+
+
 .quadro {
     font-size: 10px;    
     padding: 2em 0 2em 0;
     margin: 0 auto;
-    max-width: 100em;
+    max-width: 65em;
     width: calc(100% - 6em);
 }
 
+/* CONFIGURAÇÃO DO RODAPÉ*/
+
+
+.footer{
+	text-align:center;
+	font-family:monospace;
+	font-size:15px;
+	color:#000000;
+	background-color:#43c5cc;
+}
 /************************************************************************************************************/
